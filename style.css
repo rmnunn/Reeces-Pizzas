@@ -31,3 +31,13 @@
     transform: skewX(55.98deg);
     transform-origin: inherit;
   }
+
+  /* About Section */
+#about-container {
+  background-color: yellow;
+}
+
+#reece {
+	width: 50Spx;
+	height: auto;
+}
