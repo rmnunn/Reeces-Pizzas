@@ -41,3 +41,20 @@
 	width: 50Spx;
 	height: auto;
 }
+
+/* Contact Section */
+#contact-container {
+  background-color: orange;
+}
+
+/* Footer */
+#footer-btt {
+  display: flex;
+  justify-content: flex-end
+}
+
+#arrow {
+  background-color: orange;
+  width: 3em;
+  height: auto;
+}
