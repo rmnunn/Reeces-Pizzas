@@ -1,36 +1,68 @@
+/* General */
+h1, h2, h3, h4 {
+  font-family: hobo-std,sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+
+/* Navbar */
+.navbar {
+  background-color: orange;
+}
+
+.logo{
+  width: 8em;
+  height: auto;
+  position : absolute;
+  top : 5px;
+}
+
+[alt="pizzalogo"] { 
+  width: 6em;
+  height: auto;
+ }
+
+ .nav-link {
+  font-family: hobo-std,sans-serif;
+  font-weight: 400;
+  font-style: normal; 
+ }
+
+/* Splash */
 .jumbotron {
-    background-image: url("./img/pizza1.jpg");
-    background-size: cover;
+    background-image: url("./img/pizza3.jpg");
+    padding: 18em 0 18em 0;
+    width: 100%;
+    height: auto;
+    margin: 0;
+    color: white;
   }
 
+/* Menu */
+#pizza-col {
+  background-color: orange;
+}
 
-/* Triangles */
-  .pageOption {
-    overflow: hidden;
-    position: relative;
-    width: 40em; height: 27em;
-  }
-  .option, .option img { width: 100%; height: 100%; }
-  .option {
-    overflow: hidden;
-    position: absolute;  
-    /* arctan(27 / 40) = 34.01935deg 
-     * need to skew by 90deg - 34.01935deg = 55.98065deg
-    */
-    transform: skewX(-55.98deg);
-  }
-  .option:first-child {
-    left: -.25em;
-    transform-origin: 100% 0;
-  }
-  .option:last-child {
-    right: -.25em;
-    transform-origin: 0 100%;
-  }
-  .option img {
-    transform: skewX(55.98deg);
-    transform-origin: inherit;
-  }
+#beer-col {
+  background-color: brown;
+  color: white;
+}
+
+h2 {
+font-family: hobo-std,sans-serif;
+font-weight: 400;
+font-style: normal;
+}
+
+#menu-container {
+  background-color: brown;
+}
+  
 
   /* About Section */
 #about-container {
@@ -38,8 +70,13 @@
 }
 
 #reece {
-	width: 50Spx;
+	width: 50px;
 	height: auto;
+}
+
+#about-text-container {
+  justify-content: center;
+  align-items: center;
 }
 
 /* Contact Section */
@@ -50,11 +87,17 @@
 /* Footer */
 #footer-btt {
   display: flex;
-  justify-content: flex-end
+  justify-content: flex-end;
 }
 
-#arrow {
-  background-color: orange;
-  width: 3em;
-  height: auto;
+#footer-link {
+  color: yellow;
 }
+
+footer {
+  background-color: brown;
+}
+
+/* font-family: hobo-std,sans-serif;
+font-weight: 400;
+font-style: normal; */
