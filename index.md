@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Reece's Pizzas</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+     <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" 
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://use.typekit.net/wae5nzv.css">
+    <script src="https://kit.fontawesome.com/8989f5e0ce.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+
+    <!-- Nav Bar -->
+    <nav class="navbar navbar-expand-lg navbar-light p-1 flex-column" id="navbar">
+      <a class="navbar-brand mx-auto" href="#"><img src="./img/reecesPizzasLogo.png" alt="pizzalogo"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-center" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-link active" href="#menu-container">Pizza <span class="sr-only">(current)</span></a>
+            <a class="nav-link" href="#menu-container">Drinks </a>
+            <a class="nav-link" href="#about-container">About </a>
+            <a class="nav-link" href="#contact-container">Contact </a>
+          </div>
+        </div>
+    </nav>
+
+    <!--Jumbotron-->
+    <div class="jumbotron jumbotron-fluid justify-content-center" id="splash">
+      <div class="container">
+        <h1 class="text-center">Pizza & Beer. The perfect combo?</h1>
+      </div>
+    </div>
+
+    <!-- Menus -->
+    <div class="container-fluid" id="menu-container">
+      <div class="row">
+        <div class="col-md-6 align-self-center py-4" id="pizza-col">
+          <h2 class="text-center menu-header">Pizza Menu <i class="fas fa-pizza-slice"></i></h2>
+          <br>
+            <h3 class="text-center">Specialty Pizzas</h3>
+            <br>
+              <h4 class="text-center">The Big Cheese</h4>
+                <p class="text-center">An extra large 5 cheese pizza, made with love.</p>
+              <h4 class="text-center">The Peppy Giuseppe</h4>
+                <p class="text-center">An extra large pizza with 3 layers of pepperoni!</p>
+        </div>
+        <div class="col-md-6 align-self-center py-3" id="beer-col">
+          <h2 class="text-center menu-header">Beer Menu <i class="fas fa-beer"></i></h2>
+          <br>
+            <h3 class="text-center">Local Draft Beer</h3>
+            <br>
+              <h4 class="text-center">Double White - Marble Brewery</h4>
+              <h4 class="text-center">Elephants on Parade - Bosque Brewing</h4>
+              <h4 class="text-center">Cactus Wins the Lottery - Ex Novo</h4>
+
+
+        </div>
+      </div>
+    </div>
+    
+
+    <!-- About -->
+    <div class="container-fluid p-5" id="about-container">
+      <div class="row">
+        <div class="col-1"></div>
+        <div class="col-md-5 align-self-center">
+          <h2 class="text-center">ABOUT THE BIG CHEESE</h2>
+          <p class="text-center">Reece Nunn started Reece's Pizzas in 2017 because of his 
+              love for the Art of Pizza. He hopes you enjoy his pizzas as
+              much as he enjoys making them.
+          </p>
+        </div>
+        <div class="col-md-6">
+          <img src="./img/reece.jpg" alt="picture of Reece" class="rounded mx-auto d-block shadow w-25" id="reece">
+        </div>
+      </div>
+    </div>
+
+    <!-- Contact -->
+    <div class="container-fluid py-5" id="contact-container">
+      <div class="row">
+        <div class="col-md-6 align-self-center">
+            <h2 class="text-center">CONTACT:</h2>
+            <h3 class="text-center">(555) 555-PIZZA</h3>
+            <h3 class="text-center">CERIA Building 365</h3>
+            <h3 class="text-center">HOURS: 11:00 am - 10:00 pm, Mon. - Sat.</h3>
+        </div>
+        <div class="col-md-6">
+          <iframe class="mx-auto d-block shadow w-50" src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d299.08184705195157!2d-106.62170183275904!3d35.083576149433064!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sus!4v1600885968191!5m2!1sen!2sus" width="400" height="300" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+      <div class="container-fluid py-3">
+        <div id="footer-btt">
+          <a href="#navbar" id="footer-link"><h2>Back To Top <i class="fas fa-arrow-circle-up fa-lg"></i></h2></a>
+        </div>
+      </div>
+    </footer>
+  
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  </body>
+</html>
